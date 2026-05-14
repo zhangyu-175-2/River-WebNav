@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on WebStack-Hugo 网址导航</title>
-    <link>https://webstack-hugo.weiyan.cc/categories/</link>
+    <link>https://zhangyu-175-2.github.io/River-WebNav/categories/</link>
     <description>Recent content in Categories on WebStack-Hugo 网址导航</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://webstack-hugo.weiyan.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language><atom:link href="https://zhangyu-175-2.github.io/River-WebNav/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
