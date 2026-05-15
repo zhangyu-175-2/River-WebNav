@@ -120,7 +120,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .navbar .navbar-nav i{margin-right:2px!important}
 .navbar-menu{-ms-flex-direction:row;flex-direction:row;margin-left:auto;-ms-align-items:center;align-items:center}
 .navbar-collapse .weather{display:table}
-.navbar-brand img{max-height:40px}
+.navbar-brand img{max-height: 35px;max-width: 35px;}
 .nav-github{display:none;position:absolute;top:0;right:0;border:0}
 .page-header{position:fixed;right:0;left:0;background:#fff;box-shadow:0px 0px 25px 5px rgba(10,10,10,.05);transition:background-color .3s}
 .page-header ul{margin:0;padding:0}
@@ -420,8 +420,8 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 #search{max-width:800px;position:relative}
 #search form{position:relative}
 #search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff;transition:.3s}
-#search button{position:absolute;top:0;right:0;background:#313437;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
-#search button:hover{background:#000;cursor:pointer}
+#search button{position:absolute;top:0;right:0;  /* background:#313437; */  border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
+#search button:hover{background:#dfe6f4;  cursor:pointer}
 #search button i{color:#fff;font-size:18px}
 #search .search-select{height:50px;cursor:pointer;border:none;background-color:#fff;transition:.3s}
 #search .input-group-prepend:not(.d-none)+.search-key{border-top-left-radius:0;border-bottom-left-radius:0}
@@ -497,7 +497,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .big-header-banner .page-header{color:#fff;background:rgba(255,255,255,0);box-shadow:none;transition:color .3s,background-color .3s}
 .big-header-banner.header-bg .page-header{color:initial;backdrop-filter: blur(10px);background:rgba(255,255,255,.7)}
 .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#eee;}
-.big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#eee}
+.big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#555}
 .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#fff;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#fff}
 .header-big{position:relative;margin-top:-75px;padding-top:30px;padding-bottom:60px}
@@ -544,7 +544,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:none;border:0!important}
 /*.header-big .search-smart-tips{top:100px}*/
 .header-big .canvas-bg{position:absolute;top:0;width:100%;height:100%;border-width:0}
-.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#fff!important} 
+/* .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#fff!important}  */
 .header-big.no-bg #search-text{color:#fff;border:none;background-color:rgba(0,0,0,0.2)!important}
 .header-big.no-bg .search-type input:checked+label:before{border-color:rgba(0,0,0,0.2) transparent transparent}
 .header-big .search-type li.menu-item{padding:5px 10px 0px 10px}
