@@ -1,0 +1,30 @@
+{
+  "id": 10086,
+  "username": "test_user_01",
+  "nickname": "测试专用账号",
+  "isVip": true,
+  "balance": 1258.62,
+  "registerTime": "2026-07-02 14:30:22",
+  "tags": ["普通用户", "测试数据", "临时账号"],
+  "userInfo": {
+    "age": 24,
+    "gender": "male"
+  },
+  "orderList": [
+    {
+      "orderId": "OD20260702001",
+      "goodsName": "测试商品A",
+      "price": 99.9,
+      "count": 2,
+      "status": "completed"
+    },
+    {
+      "orderId": "OD20260702002",
+      "goodsName": "测试商品B",
+      "price": 19.9,
+      "count": 1,
+      "status": "pending"
+    }
+  ],
+  "remark": "仅用于接口调试、解析测试，无真实业务数据"
+}
